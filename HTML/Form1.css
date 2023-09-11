@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url(../Foto/bg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	background-image: url(../Foto/build.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	border-radius: 18px 0px 0px 18px;
+	height: 50vh;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.right {
+	background-color: #f8f4f4;
+	width: 60%;
+	border-radius: 0px 18px 18px 0px;
+	position: relative;
+	height: 50vh;
+	padding: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 900px;
+}
+
+@media (max-width: 600px) {
+	.main {
+		flex-wrap: wrap;
+	}
+
+	.main .left {
+		width: 100%;
+		border-radius: 0px;
+	}
+
+	.main .right {
+		width: 100%;
+		border-radius: 0px;
+		height: 50vh;
+	}
+}
+
+.left a {
+	background-color: #18b4d4;
+	text-decoration: none;
+	font-size: 1.1rem;
+	border-radius: 20px;
+	padding: 13px 13px;
+	color: #ffffff;
+}
+
+.left a:hover {
+	background-color: #0fa5bf;
+}
+
+.left a:active {
+	background-color: #0fa5bf;
+	border: solid 2px #18b4d4;
+}
+
+.right header {
+	text-align: center;
+	font-size: 2rem;
+	color: #18b4d4;
+	font-weight: 600;
+}
+
+.input-box img {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: 50px;
+	top: 87px;
+}
+
+.input-box:nth-of-type(2) img {
+	width: 30px;
+	height: 30px;
+	top: 140px;
+	left: 48px;
+}
+
+form :where(.input-box input) {
+	width: 95%;
+	height: 35px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	padding: 0 15px;
+	font-size: 1rem;
+	color: #ffffff;
+	background-color: #c8c4c4;
+	margin-right: 15px;
+}
+
+input::placeholder {
+	color: #ffffff;
+	opacity: 0.8;
+}
+
+.input-box {
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 50px;
+}
+
+.input-box input:focus {
+	border: solid 1px #18b4d4;
+	box-shadow: 0 0 5px rgba(32, 180, 212, 0.5);
+}
+
+.box {
+	display: flex;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.box .kiri {
+	text-align: left;
+	width: 50%;
+	margin-left: 25px;
+}
+
+.box .kanan {
+	text-align: right;
+	width: 50%;
+	margin-right: 10px;
+}
+.box label {
+	margin-left: 10px;
+}
+
+.box label, .box a {
+	color: #18b4d4;
+}
+
+.box a {
+	text-decoration: none;
+}
+
+.box a:hover {
+	text-decoration: underline;
+}
+
+.box a:active {
+	color: #1b1e23;
+}
+
+.box input[type="checkbox"] {
+	vertical-align: middle;
+	height: 15px;
+	width: 15px;
+}
+
+form {
+	text-align: center;
+}
+
+form button {
+	background-color: #18b4d4;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	height: 35px;
+	width: 50%;
+	font-family: inherit;
+	font-size: 1.1rem;
+	margin-top: 20px;
+	position: relative;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: 400;
+	display: inline-block;
+}
+
+form button:hover {
+	background-color: #0fa5bf;
+}
+
+form button:active {
+	top: 1px;
+}

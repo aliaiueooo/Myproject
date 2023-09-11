@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Company Register Account</title>
+	<link rel="stylesheet" type="text/css" href="Form2.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<header>Create Account</header>
+		<form action="#" method="post">
+			<div class="input-box">
+				<label for="full-name">Full Name</label>
+				<input id="full-name" type="text" name="full-name" placeholder="Enter full name" required>
+			</div>
+			<div class="input-box">
+				<label for="email-address">Email Address</label>
+				<input id="email-address" type="email" name="email-address" placeholder="Enter email address" required>
+			</div>
+			<div class="box">
+				<div class="input-box">
+					<label for="phone-numb">Phone Number</label>
+					<input type="number" id="phone-numb" name="phone-numb" placeholder="Enter phone number" required></input>
+				</div>
+				<div class="input-box">
+					<label for="birthdate">Birth Date</label>
+					<input type="date" id="birthdate" name="birthdate" placeholder="birthdate" required>
+				</div>
+			</div>
+			<div class="gender-box">
+				<h4>Gender</h4>
+				<div class="gender-opt">
+					<div class="gender">
+						<input type="radio" name="gender" id="male" required>
+						<label for="male">Male</label>
+					</div>
+					<div class="gender">
+						<input type="radio" name="gender" id="female" required>
+						<label for="female">Female</label>
+					</div>
+					<div class="gender">
+						<input type="radio" name="gender" id="not-to-say" required>
+						<label for="not-to-say">Prefer not to say</label>
+					</div>
+				</div>
+			</div>
+			<div class="box-address">
+				<label>Address</label>
+				<div class="input-box">
+				<input type="text" name="address-line-1" placeholder="Enter street address" required>
+				<input type="text" name="address-line-2" placeholder="Enter street address line 2" required>
+				</div>
+				<div class="box">
+					<div class="select-box">
+						<select>
+							<option hidden>Country</option>
+							<option value="indonesia">Indonesia</option>
+							<option value="america">America</option>
+							<option value="japan">Japan</option>
+							<option value="france">France</option>
+							<option value="korea">Korea</option>
+						</select>
+					</div>
+					<div class="input-box">
+						<input class="city" type="text" name="city" placeholder="Enter your city" required>
+					</div>
+				</div>
+				<div class="box">
+					<div class="input-box">
+						<input type="text" name="region" placeholder="Enter your region" required>
+						<input type="number" name="postal-code" placeholder="Enter postal code" required>
+					</div>
+				</div>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>

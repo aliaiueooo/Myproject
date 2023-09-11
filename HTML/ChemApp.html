@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1.0">
+	<title>ChemPhotoApp</title>
+</head>
+
+<body>
+	<main>
+		<h1>ChemPhotoApp</h1>
+		<section>
+			<h2>Chemical Photos</h2>
+			<p>This page will bring you on chemical things.<br>You can get more about <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank">chemical</a> in our gallery.</p>
+			<a href="http://www.chemspider.com/" target="_blank"><img src="../Foto/sulfuric.jpg" alt="Chemical Photo" title="Chemical Photo" width="250" height="200"></a>
+		</section>
+
+		<section>
+			<h2>Chemical Lists</h2>
+			<h4>Dangerous Chemical:</h4>
+			<ul type="square">
+				<li>H2SO4</li>
+				<li>CH3COOH</li>
+				<li>HCl</li>
+			</ul>
+			<figure>
+				<img src="../Foto/Acid.png" alt="Acid" title="Acid" width="150" height="150">
+				<figcaption>
+					This is <b>Acid</b> Dangerous.
+				</figcaption>
+			</figure>
+
+			<h4>Safety Things:</h4>
+			<ul type="circle">
+				<li>Safety Shoes</li>
+				<li>Safety Gloves</li>
+				<li>Safety Helmet</li>
+			</ul>
+			<figure>
+				<img src="../Foto/chem1.jpg" alt="Safety Equipment" title="Safety Equipment" width="200" height="150">
+				<figcaption>
+					This is <em>Safety</em> Equipment.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Chemical Form</h2>
+			<fieldset>
+				<legend>Have you ever contact with dangerous chemical?</legend>
+				<label><input id="yes" type="radio" name="choice" checked>Yes</label>
+				<label><input id="no" type="radio" name="choice">No</label>
+			</fieldset>
+			<fieldset>
+				<legend>What's safety equipment do you prefer to wear?</legend>
+				<label><input type="checkbox" name="safetyequipment">Helmet</label>
+				<label><input type="checkbox" name="safetyequipment">Glasses</label>
+				<label><input type="checkbox" name="">Gloves</label>
+			</fieldset>
+			<br>
+			<input type="text" name="chemicalurl" placeholder="chemical url" required>
+			<br><br>
+			<button type="submit">Submit</button>
+		</section>
+	</main>
+
+	<footer>
+		<p>
+			Copyright by - <a href="https://www.linkedin.com/in/maulanaaliakbar1/" target="_blank">Maulana Ali Akbar</a>
+		</p>
+	</footer>
+</body>
+</html>

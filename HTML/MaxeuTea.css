@@ -1,0 +1,261 @@
+body {
+	background-image: url(../Foto/es.png);
+	font-family: sans-serif;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+ /*Header*/
+
+.header {
+	background-color: #ffffff;
+	width: 20%;
+	border-radius: 5px;
+	margin: 0 auto;
+	max-width: 500px;
+	min-width: 250px;
+}
+
+.border {
+	border: solid 5px #dc1c24;
+	border-radius: 5px;
+}
+
+.header h1, .header p {
+	color: #dc1c24;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 30px;
+}
+
+.header p {
+	font-style: italic;
+}
+
+.border a {
+	text-decoration: none;
+}
+
+.border h1:hover {
+	color: #c61920;
+}
+
+.border h1:active {
+	color: #e0333a;
+}
+
+/*Menu Utama*/
+
+.menu{
+	margin-left: -15px;
+}
+
+.menu .ice, .menu .tea, .menu .float, .menu .cake {
+	background-color: #ffffff;
+	width: 100%;
+	max-width: 300px; 
+	padding: 10px;
+	border: solid 3px #dc1c24;
+	border-radius: 5px; 
+	padding-top: 0px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+h2 {
+	font-size: 25px;
+	color: #ffffff;
+	background-color: #dc1c24;
+	border-radius: 2px;
+}
+
+h2, p {
+	text-align: center;
+}
+
+.item p {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.flavour {
+	text-align: left;
+	width: 75%;
+}
+
+.price {
+	text-align: right;
+	width: 25%;
+}
+
+.flavour-new {
+	text-align: left;
+	width: 50%;
+}
+
+.new {
+	text-align: left;
+	width: 30%;
+	color: #d4af37;
+}
+
+.price-new {
+	text-align: right;
+	width: 20%;
+}
+
+/*Tambahan Menu*/
+
+.two, .three, .four {
+	margin-left: 100px;
+}
+
+ul li {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Image Menu*/
+
+.ice img, .tea img, .cake img {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.float img {
+	width: 45px;
+	height: 45px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Footer*/
+
+.size {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100px;
+	max-width: 200px; 
+	border: solid 3px #dc1c24;
+	border-radius: 5px; 
+	margin-left: 210px;
+}
+
+.small {
+	width: 30px;
+	height: 40px;
+}
+
+.medium {
+	width: 35px;
+	height: 45px;
+}
+
+.large {
+	width: 40px;
+	height: 50px;
+}
+
+.size img {
+	margin-top: 15px;
+	margin-left: 22px;
+}
+
+.size .cuptype {
+	text-align: center;
+	margin-top: 3px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #dc1c24;
+}
+
+.topping {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100px;
+	max-width: 250px; 
+	border: solid 3px #dc1c24;
+	border-radius: 5px; 
+	margin-left: 350px;
+	margin-top: -93px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.jelly {
+	width: 35px;
+	height: 35px;
+}
+
+.esbatu {
+	width: 40px;
+	height: 40px;
+}
+
+.boba {
+	width: 38px;
+	height: 38px;
+}
+
+.chochips {
+	width: 40px;
+	height: 40px;
+}
+
+.topping img {
+	margin-top: 12px;
+	margin-left: 8px;
+}
+
+.topping .topp {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #dc1c24;
+}
+
+.block {
+	background-color: #ffffff;
+	width: 100%;
+	height: 100px;
+	max-width: 200px; 
+	border: solid 3px #dc1c24;
+	border-radius: 5px; 
+	margin-left: 210px;
+	margin-left: 720px;
+	margin-top: -107px;
+}
+
+.pizza {
+	width: 35px;
+	height: 35px;
+}
+
+.potato {
+	width: 45px;
+	height: 45px;
+}
+
+.block .blok {
+	text-align: center;
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #dc1c24;
+}
+
+.block .pizza {
+	margin-left: 13px; 
+}
+
+
+
+
